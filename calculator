@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Calculator"<< endl;
+    cout <<"-----------------------"<<endl;
+    int op,num1,num2;
+    cin >> op;
+    if(op==1){
+         cout << "Adder funion" << endl;
+         //num1
+        cout << "Enter num1 : " ;
+        cin >> num1;
+        cout << endl;
+        //num2
+        cout << "Enternum2 : " ;
+        cin >> num2;
+        cout << endl;
+        cout << "--------------=------" << num1+num2 << endl;
+    }else if(op==2){    
+        cout<<"subtract function" << endl;
+    }else{
+        cout << "Invelid data!" <<endl;
+    }    
+    return 0;
+}
